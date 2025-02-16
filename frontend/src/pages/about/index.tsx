@@ -1,12 +1,7 @@
 import React from "react";
-import MainLayout from "@/layouts/MainLayout";
 
 const IndexPage = () => {
-  return (
-    <MainLayout>
-      <div className="text-4xl font-semibold text-blue-500">O mnie</div>
-    </MainLayout>
-  );
+  return <div className="text-4xl font-semibold text-blue-500">O mnie</div>;
 };
 
 export default IndexPage;

@@ -1,6 +1,6 @@
 import React from "react";
-import "@/styles/tailwind.css";
-import "@/styles/global.css";
+import "@/styles/global.scss";
+import MainLayout from "@/components/templates/MainLayout";
 
 const App = ({
   Component,
@@ -9,7 +9,11 @@ const App = ({
   Component: React.ElementType;
   pageProps: Record<string, unknown>;
 }) => {
-  return <Component {...pageProps} />;
+  return (
+    <MainLayout>
+      <Component {...pageProps} />
+    </MainLayout>
+  );
 };
 
 export default App;
