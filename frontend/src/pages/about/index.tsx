@@ -1,7 +1,12 @@
 import React from "react";
+import AboutPageBase from "../../components/templates/about/AboutPageBase";
 
 const IndexPage = () => {
-  return <div className="text-4xl font-semibold text-blue-500">O mnie</div>;
+  return (
+    <>
+      <AboutPageBase />
+    </>
+  );
 };
 
 export default IndexPage;

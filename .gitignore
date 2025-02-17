@@ -27,3 +27,6 @@ Thumbs.db
 
 # Next.js generated TypeScript declaration
 next-env.d.ts
+
+# Files
+frontend/public/assets/cv*

@@ -11,9 +11,34 @@ To aplikacja portfolio, która prezentuje moje CV, zbudowana przy użyciu **Next
   - Redux (do zarządzania stanem)
   - ESLint i Prettier (do utrzymania jakości kodu)
 
-## Funkcje
+## Backend
 
 Zobaczymy :/
+
+## Układ
+
+Struktura Atom z metodologii Atomic Design
+src/
+│
+├── components/
+│ ├── atoms/
+│ │
+│ ├── molecules/
+│ │
+│ ├── organisms/
+│ │
+│ └── templates/
+│  
+├── pages/
+│ ├── about/
+│ │
+│ └── home/
+│
+├── services/
+│
+├── styles/
+│
+└── utils/
 
 ## Rozpoczęcie pracy
 

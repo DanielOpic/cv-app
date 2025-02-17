@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import Navigation from "../molecules/Navigation";
 import SidebarHeader from "../molecules/SidebarHeader";
+import SidebarSmLinks from "../molecules/SidebarSmLinks";
+import SidebarDownloadLinks from "../molecules/SidebarDownloadLinks";
 
 const Sidebar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +20,11 @@ const Sidebar = () => {
         <div className="w-full lg:w-[80px] bg-zinc-700 flex-shrink-0">
           <Navigation />
         </div>
-        <SidebarHeader />
+        <div className="flex-col flex items-center w-full p-4">
+          <SidebarHeader />
+          <SidebarSmLinks />
+          <SidebarDownloadLinks />
+        </div>
       </aside>
       <button
         className="absolute top-4 right-4 lg:hidden text-white z-10"

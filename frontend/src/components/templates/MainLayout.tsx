@@ -1,4 +1,3 @@
-// src/layouts/MainLayout.tsx
 import Sidebar from "../organisms/Sidebar";
 import { ReactNode } from "react";
 

@@ -1,12 +1,12 @@
 import LinkAtom from "../atoms/LinkAtom";
-import { FaHome, FaUser } from "react-icons/fa"; // Używamy ikon z react-icons
+import { FaHome, FaUser } from "react-icons/fa";
 
 const Navigation = () => {
   return (
-    <nav className="flex flex-col space-y-4">
+    <nav className="flex flex-col">
       <LinkAtom href="/" icon={<FaHome />}>
         {" "}
-        Strona Główna
+        Home
       </LinkAtom>
       <LinkAtom href="/about" icon={<FaUser />}>
         {" "}

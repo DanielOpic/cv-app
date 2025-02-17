@@ -10,7 +10,7 @@ const LinkAtom = ({ href, children, icon }: LinkAtomProps) => {
   return (
     <Link
       href={href}
-      className="text-center flex justify-center items-center hover:text-gray-300 w-full py-2 px-1" // Padding 10px góra-dół, 5px prawo-lewo
+      className="m-0 px-1 py-5 border-b border-gray-500 text-center flex justify-center items-center hover:text-orange-300 w-full transition-all duration-300"
     >
       <div className="flex flex-col items-center space-y-2">
         {" "}
