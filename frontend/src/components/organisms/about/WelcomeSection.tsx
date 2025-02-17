@@ -1,3 +1,4 @@
+import PageSectionHeader from "../../molecules/PageSectionHeader";
 import Text from "../../molecules/Text";
 
 const WelcomeSection = () => {
@@ -9,6 +10,7 @@ const WelcomeSection = () => {
 
   return (
     <div className="flex flex-col w-full h-full p-5">
+      <PageSectionHeader text="O mnie" />
       <Text texts={texts} />
     </div>
   );

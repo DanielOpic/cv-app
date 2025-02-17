@@ -1,4 +1,4 @@
-import Sidebar from "../organisms/Sidebar";
+import Sidebar from "../../organisms/Sidebar";
 import { ReactNode } from "react";
 
 type MainLayoutProps = {

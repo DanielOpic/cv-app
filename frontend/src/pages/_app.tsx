@@ -1,6 +1,6 @@
 import React from "react";
 import "@/styles/global.scss";
-import MainLayout from "@/components/templates/MainLayout";
+import MainLayout from "@/components/templates/MainLayout/MainLayout";
 
 const App = ({
   Component,

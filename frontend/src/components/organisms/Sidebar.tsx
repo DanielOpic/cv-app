@@ -17,7 +17,7 @@ const Sidebar = () => {
           isMenuOpen ? "" : "aside-hidden"
         } aside text-white transition-all duration-300 bg-zinc-500 fixed top-0 left-0 bottom-0 z-9 flex-col-reverse lg:flex lg:flex-row`}
       >
-        <div className="w-full lg:w-[80px] bg-zinc-700 flex-shrink-0">
+        <div className="w-full lg:w-[90px] bg-zinc-700 flex-shrink-0">
           <Navigation />
         </div>
         <div className="flex-col flex items-center w-full p-4">
